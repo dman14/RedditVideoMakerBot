@@ -32,7 +32,10 @@ def download_background():
         }
 
         with YoutubeDL(ydl_opts) as ydl:
-            ydl.download("https://www.youtube.com/watch?v=n_Dv4JMiwK8")
+            #minecraft parkour
+            #ydl.download("https://www.youtube.com/watch?v=n_Dv4JMiwK8")
+            #alien isolation 15 mins
+            ydl.download("https://www.youtube.com/watch?v=Hke6bEEqMxo")
 
         print_substep("Background video downloaded successfully!", style="bold green")
 
